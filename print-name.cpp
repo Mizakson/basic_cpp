@@ -4,12 +4,25 @@
 
 using namespace std;
 
-int main()
-{
-    string my_name {"Max"};
+// print with no input
+// int main()
+// {
+//     string my_name {"Max"};
 
-    cout << my_name << "\n";
+//     cout << my_name << "\n";
 
-    return 0;  
-    
+//     return 0;  
+
+// }
+
+
+// print with input
+int main() {
+    string name;
+    cout << "-- Enter name -- " << "\n";
+    cin >> name;
+    string msg {"Hi "};
+    cout << msg << name << "\n";
+
+    return 0;
 }
