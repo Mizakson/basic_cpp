@@ -54,9 +54,7 @@ double calculate()
             std::cout << "Enter a valid operation key (1-4)" << std::endl;
             getOperation();
     }
-
     return result;
-
 }
 
 
